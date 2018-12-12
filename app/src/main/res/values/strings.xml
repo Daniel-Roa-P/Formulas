@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Formulas</string>
+    <string name="titulo">Seleccione la ecuación en cuestión:</string>
+    <string name="cosa">Formula:</string>
+</resources>
