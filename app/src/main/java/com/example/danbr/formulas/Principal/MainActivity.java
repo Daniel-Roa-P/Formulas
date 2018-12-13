@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void liskov(Ecuaciones f){
 
+        f.setCadena();
         this.e=f;
 
     }
@@ -46,35 +47,39 @@ public class MainActivity extends AppCompatActivity {
         imagen = (ImageView)findViewById(R.id.imageView2);
 
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                if(position==0){
+                if (position == 0) {
                     liskov(new Campo());
-                } else if(position==1){
+
+                    System.out.print("spj");
+                } else if (position == 1) {
                     liskov(new Cuadratica());
-                } else if(position==2){
+                } else if (position == 2) {
                     liskov(new Distancia());
-                } else if(position==3){
+                } else if (position == 3) {
                     liskov(new EnergiaCinetica());
-                } else if(position==4){
+                } else if (position == 4) {
                     liskov(new EnergiaPotencia());
-                } else if(position==5){
+                } else if (position == 5) {
                     liskov(new FuerzaNewton());
-                } else if(position==6){
+                } else if (position == 6) {
                     liskov(new FuerzaE());
-                } else if(position==7){
+                } else if (position == 7) {
                     liskov(new IntegracionPartes());
-                } else if(position==8){
+                } else if (position == 8) {
                     liskov(new Series());
-                } else if(position==9){
+                } else if (position == 9) {
                     liskov(new Trabajo());
-                } else if(position==10){
+                } else if (position == 10) {
                     liskov(new Velocidad());
                 }
+                System.out.println(e.getCadena());
+                System.out.println(position);
 
-                e.setCadena();
-                int idImagen = getResources().getIdentifier("com.example.danbr.personajes:mipmap/" + e.getCadena(), null, null);
+                int idImagen = getResources().getIdentifier("com.example.danbr.formulas:mipmap/" + e.getCadena(), null, null);
 
                 imagen.setImageResource(idImagen);
 

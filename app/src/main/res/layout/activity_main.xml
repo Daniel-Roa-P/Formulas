@@ -65,7 +65,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:srcCompat="@mipmap/velocidad"
-        tools:srcCompat="@mipmap/velocidad" />
+        app:srcCompat="@mipmap/vacio"
+        tools:srcCompat="@mipmap/vacio" />
 
 </android.support.constraint.ConstraintLayout>

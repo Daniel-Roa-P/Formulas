@@ -4,7 +4,7 @@ public class Ecuaciones {
 
     protected String cadena;
 
-    public void setCadena(){};
+    public void setCadena(){}
     public String getCadena(){
 
         return cadena;

@@ -4,7 +4,7 @@ public class FuerzaNewton extends Ecuaciones{
 
     @Override
     public void setCadena() {
-        this.cadena = "fuerzan";
+        this.cadena = "fuezan";
     }
 
 }

@@ -4,6 +4,6 @@ public class Campo extends Ecuaciones{
 
     @Override
     public void setCadena() {
-        this.cadena = "campo electrico";
+        this.cadena = "campoelectrico";
     }
 }
