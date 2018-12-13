@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Principal.MainActivity">
 
     <TextView
         android:id="@+id/texto"
@@ -60,10 +60,12 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:scaleType="fitXY"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+        app:srcCompat="@mipmap/velocidad"
+        tools:srcCompat="@mipmap/velocidad" />
 
 </android.support.constraint.ConstraintLayout>
